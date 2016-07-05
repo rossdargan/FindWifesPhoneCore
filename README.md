@@ -30,4 +30,3 @@ You may optionally provide the following:
 * Currently there is no way to specify the port for the message broker
 * If you have more than 1 device named the same then we will just perform the search on the first one.
 * You will be e-mailed every time this performs a find my phone
-* This is not a trusted build as I haven't made that work yet. This means you don't really know what code is inside the application. Please build it yourself to be safe!

@@ -108,6 +108,8 @@ namespace FindWifesPhoneDNX.Console
                 else
                 {
                     Console.WriteLine("Something went wrong with the search");
+                    //try once more - often fixes it :/
+                    await _findPhoneService.FindPhone(deviceName);
                 }
 
             }
